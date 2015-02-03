@@ -1,3 +1,4 @@
 markdown: redcarpet
 baseurl: /bluedesign
 permalink: pretty
+exclude: ['README.md', 'scss', 'prepros.cfg']

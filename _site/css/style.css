@@ -1,0 +1,186 @@
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+/* Paul Irish's Padding Fix
+http://paulirish.com/2012/box-sizing-border-box-ftw
+*/
+/* line 10, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+* {
+  box-sizing: border-box; }
+
+/* line 26, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+html, body, div, span, applet, object, iframe, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+/* line 36, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, main {
+  display: block; }
+
+/* line 39, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+body {
+  line-height: 1; }
+
+/* line 42, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+ol, ul {
+  list-style: none; }
+
+/* line 45, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+blockquote, q {
+  quotes: none; }
+
+/* line 49, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none; }
+
+/* line 53, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/reset */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@-moz-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-ms-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-o-viewport {
+  width: device-width;
+  scale: 1; }
+
+@-webkit-viewport {
+  width: device-width;
+  scale: 1; }
+
+@viewport {
+  width: device-width;
+  scale: 1; }
+
+/* line 7, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+html {
+  box-sizing: border-box;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%; }
+
+/* line 16, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* line 20, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+main {
+  padding-top: 4rem; }
+
+/* line 24, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.image-flex {
+  width: 100%;
+  display: block; }
+
+/* ---------- Nav ------------------------------------------------------------------------- */
+/* line 31, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.masthead {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0px 4px 5px 0 rgba(0, 0, 0, 0.4);
+  background-color: #EDEDED;
+  height: 4rem; }
+
+/* line 41, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.nav li {
+  display: inline;
+  margin-right: 1rem;
+  text-transform: uppercase;
+  text-decoration: none; }
+
+/* ---------- Contact ------------------------------------------------------------------------- */
+/* line 50, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.contact-info {
+  background-color: #EDEDED;
+  height: 10rem;
+  text-align: center;
+  padding-top: 3rem; }
+
+/* line 57, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+dt {
+  color: red; }
+
+/* ---------- Grids ------------------------------------------------------------------------- */
+/* line 63, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.grid {
+  overflow: hidden;
+  clear: both; }
+
+/* line 68, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.grid dd {
+  margin-left: 0px;
+  text-align: center; }
+
+/* line 73, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.gutter {
+  padding-left: 1em;
+  padding-right: 1em;
+  margin: 1em; }
+
+/* line 79, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.unit {
+  float: left;
+  width: 33.3333%; }
+
+/* line 84, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.unit-s-1 {
+  width: 100%; }
+
+/* line 88, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.unit-s-1-2 {
+  width: 50%; }
+
+/* line 92, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+.unit-s-1-3 {
+  width: 33.3333%; }
+
+@media only screen and (min-width: 38em) {
+  /* line 98, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-m-1 {
+    width: 100%; }
+
+  /* line 102, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-m-1-2 {
+    width: 50%; }
+
+  /* line 106, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-m-1-3 {
+    width: 33.3333%; }
+ }
+
+@media only screen and (min-width: 50em) {
+  /* line 114, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-l-1 {
+    width: 100%; }
+
+  /* line 118, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-l-1-4 {
+    width: 25%; }
+
+  /* line 122, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-l-1-3 {
+    width: 33.3333%; }
+
+  /* line 126, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-l-1-2 {
+    width: 50%; }
+
+  /* line 130, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  .unit-l-2-3 {
+    width: 66.6666%; }
+ }
