@@ -109,7 +109,7 @@ main {
     background: $primary-colour;
 }
 
-.masthead h1 {
+.masthead h2 {
     display: inline;
     z-index: 40;
     position: fixed;
@@ -141,7 +141,7 @@ main {
 }
 
 @media only screen and (min-width: 29em) {
-    .masthead h1 {
+    .masthead h2 {
        margin-left: 37%;
     }
 }
@@ -157,7 +157,7 @@ main {
         box-shadow: 0px 2px 4px 0 rgba(0,0,0,.4);
         padding: 1.25rem 0;
         border-bottom: 8px solid $primary-colour;
-        h1 {
+        h2 {
         display: none;
         }
     }
