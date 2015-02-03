@@ -9,6 +9,7 @@ html {
 
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+    -o-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
     
@@ -32,7 +33,6 @@ main {
 
 .nav-logo {
     display: none;
-    z-index: 40;
     position: fixed;
     top: -.3rem;
     left: .5rem;
@@ -109,7 +109,9 @@ main {
     background: $primary-colour;
 }
 
-.masthead h2 {
+.masthead {
+    background: url(../images/bg-texture-small.png);
+    h2 {
     display: inline;
     z-index: 40;
     position: fixed;
@@ -117,6 +119,7 @@ main {
     text-align: center;
     margin-left: 30%;
     margin-top: 8px;
+    }
 }
 
 .donate-btn {
@@ -171,15 +174,6 @@ main {
         display: none;
     }
 
-    .nav-bg {
-        z-index: 10;
-        position: fixed;
-        background: url(../images/bg-texture-small.png);
-        opacity: .6;
-        height: 4.1rem;
-        width: 100%;
-    }
-
     .nav-top {
         top: auto;
     }
@@ -189,9 +183,9 @@ main {
     }
 
     .nav {
+        z-index: 110;
         background: none;
         display: inline;
-        z-index: 70;
         position: relative;
         li {
         display: inline;
