@@ -259,17 +259,16 @@ main {
     width: 2.3rem;
     }
     
-    .pinterest,
     .pinterest li,
     .pinterest li a:link,
     .pinterest li a:visited {
         color: $primary-colour;
         background-color: none;
+        
     }
     
     @media only screen and (min-width: 45em) {
-     
-        .social li,  
+       
         .social li a:link, 
         .social li a:visited  {
         font-size: 4rem;
@@ -277,7 +276,7 @@ main {
         height: 5.25rem;
         width: 5.25rem;
         font-size: 4rem;
-        margin: 1rem auto; 
+        margin: 1rem 2rem; 
         
         span {
             display: inline-block; 
@@ -289,7 +288,7 @@ main {
 
     .footer-info {
         display: inherit;
-        margin-top: 6rem;
+        margin-top: 3rem;
         font-size: .8rem;
         li {
         text-align: left;
