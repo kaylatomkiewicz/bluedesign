@@ -259,14 +259,6 @@ main {
     width: 2.3rem;
     }
     
-    .pinterest li,
-    .pinterest li a:link,
-    .pinterest li a:visited {
-        color: $primary-colour;
-        background-color: none;
-        
-    }
-    
     @media only screen and (min-width: 45em) {
        
         .social li a:link, 
