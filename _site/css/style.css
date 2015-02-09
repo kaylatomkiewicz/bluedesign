@@ -300,26 +300,21 @@ main {
     height: 2.3rem;
     width: 2.3rem; }
   @media only screen and (min-width: 45em) {
-    /* line 265, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+    /* line 264, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
     .bottom .social li a:link, .bottom .social li a:visited {
       font-size: 4rem;
-      padding: 0.5rem;
+      padding: 0.7rem;
       height: 5.25rem;
       width: 5.25rem;
       font-size: 4rem;
-      margin: 1rem 2rem; }
-      /* line 273, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
-      .bottom .social li a:link span, .bottom .social li a:visited span {
-        display: inline-block;
-        color: #000;
-        text-transform: uppercase; }
+      margin: 2rem 2rem; }
 
-    /* line 281, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+    /* line 274, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
     .bottom .footer-info {
       display: inherit;
-      margin-top: 3rem;
+      margin-top: 1rem;
       font-size: 0.8rem; }
-      /* line 285, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+      /* line 278, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
       .bottom .footer-info li {
         text-align: left;
         display: inline-block;
@@ -328,89 +323,89 @@ main {
         border-right: 3px solid #be1e2d;
         height: 8rem;
         margin-bottom: 4rem; }
-        /* line 293, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+        /* line 286, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
         .bottom .footer-info li h5 {
           margin: 0.7rem 0;
           color: #be1e2d; }
-        /* line 297, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+        /* line 290, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
         .bottom .footer-info li:last-child {
           border-right: none; }
-        /* line 300, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+        /* line 293, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
         .bottom .footer-info li p {
           margin: 0.25rem auto; }
  }
   @media only screen and (min-width: 51.875em) {
-    /* line 309, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+    /* line 302, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
     .bottom .footer-info {
       font-size: 1rem; }
  }
 
 /* ---------- Grids ------------------------------------------------------------------------- */
-/* line 317, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 310, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .grid {
   overflow: hidden;
   clear: both; }
 
-/* line 322, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 315, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .grid dd {
   margin-left: 0px;
   text-align: center; }
 
-/* line 327, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 320, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .gutter {
   padding-left: 1em;
   padding-right: 1em;
   margin: 1em; }
 
-/* line 333, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 326, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .unit {
   float: left;
   width: 33.3333%; }
 
-/* line 338, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 331, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .unit-s-1 {
   width: 100%; }
 
-/* line 342, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 335, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .unit-s-1-2 {
   width: 50%; }
 
-/* line 346, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+/* line 339, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
 .unit-s-1-3 {
   width: 33.3333%; }
 
 @media only screen and (min-width: 38em) {
-  /* line 352, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 345, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-m-1 {
     width: 100%; }
 
-  /* line 356, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 349, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-m-1-2 {
     width: 50%; }
 
-  /* line 360, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 353, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-m-1-3 {
     width: 33.3333%; }
  }
 
 @media only screen and (min-width: 50em) {
-  /* line 367, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 360, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-l-1 {
     width: 100%; }
 
-  /* line 371, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 364, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-l-1-4 {
     width: 25%; }
 
-  /* line 375, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 368, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-l-1-3 {
     width: 33.3333%; }
 
-  /* line 379, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 372, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-l-1-2 {
     width: 50%; }
 
-  /* line 383, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
+  /* line 376, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/main */
   .unit-l-2-3 {
     width: 66.6666%; }
  }

@@ -260,27 +260,20 @@ main {
     }
     
     @media only screen and (min-width: 45em) {
-       
         .social li a:link, 
         .social li a:visited  {
         font-size: 4rem;
-        padding: .5rem;
+        padding: .7rem;
         height: 5.25rem;
         width: 5.25rem;
         font-size: 4rem;
-        margin: 1rem 2rem; 
-        
-        span {
-            display: inline-block; 
-            color: #000;
-            text-transform: uppercase;
-        }
+        margin: 2rem 2rem; 
     }
 
 
     .footer-info {
         display: inherit;
-        margin-top: 3rem;
+        margin-top: 1rem;
         font-size: .8rem;
         li {
         text-align: left;
