@@ -5,6 +5,9 @@ p {
 	max-width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+    text-align: justify;
+    max-width: 60rem;
+    line-height: 1.25rem;
 }
 
 blockquote {
@@ -14,6 +17,54 @@ blockquote {
     height: 100%;
     width: 90%;
     margin: auto;
+}
+
+.banner {
+    position: relative;
+    z-index: -10;
+}
+
+.bannerquote {
+    font-size: 1rem;
+    color: $primary-colour;
+    text-align: center;
+    font-weight: 400;
+    position: absolute;
+    display: none;
+}
+
+@media only screen and (min-width: 21em) {
+     .bannerquote {
+        font-size: 1.25rem;
+        padding: .5rem 0;
+        background-color: rgba(190, 30, 45, .5);
+        color: white;
+        bottom: 0;
+        display: block;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 34em) {
+     .bannerquote {
+        font-size: 1.5rem;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 44em) {
+     .bannerquote {
+        font-size: 2rem;
+        padding: 1rem 0;
+    }
+}
+
+@media only screen and (min-width: 65em) {
+    .bannerquote {
+        font-size: 2.5rem;
+        padding: 1rem 0;
+        font-weight: 400;
+    }
 }
 
 blockquote footer {
@@ -45,11 +96,14 @@ h1, .exa {
 h2, .peta {
   font-size: 3.1573rem;
   line-height: 1.4253;
+  text-align: center;
 }
 
 h3, .tera {
   font-size: 2.3686rem;
   line-height: 1.2666;
+  text-align: center;
+  color: $primary-colour;
 }
 
 h4, .giga {
@@ -190,4 +244,9 @@ sub {
 .gutter-double, .gutter-2 {
   padding-left: 3.0000rem;
   padding-right: 3.0000rem;
+}
+
+.gutter-large {
+    padding-left: 5rem;
+    padding-right: 5rem;
 }
