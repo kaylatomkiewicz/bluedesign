@@ -307,6 +307,10 @@ main {
 
 /* ---------- Grids ------------------------------------------------------------------------- */
 
+.hide {
+    display:none;
+}
+
 .grid {
     overflow: hidden;
 	clear: both;
@@ -328,6 +332,11 @@ main {
     width: 33.3333%;
 }
 
+.unit-s-hidden {
+  display: none;
+  visibility: hidden;
+}
+
 .unit-s-1 {
 	width: 100%;	
 }
@@ -341,6 +350,11 @@ main {
 }
 
 @media only screen and (min-width: 38em) {
+    
+    .unit-m-hidden {
+        display: none;
+        visibility: hidden;
+    }
 	
 	.unit-m-1 {
 		width: 100%

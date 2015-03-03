@@ -33,6 +33,18 @@ blockquote {
     display: none;
 }
 
+ .small-bannerquote {
+    font-size: 1.5rem;
+    line-height:1.5rem;
+    background-color: rgba(190, 30, 45, .5);
+    color: white;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 0;
+}
+
 @media only screen and (min-width: 21em) {
      .bannerquote {
         font-size: 1.25rem;
@@ -65,6 +77,7 @@ blockquote {
         padding: 1rem 0;
         font-weight: 400;
     }
+
 }
 
 blockquote footer {
