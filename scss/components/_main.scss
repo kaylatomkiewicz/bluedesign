@@ -29,6 +29,10 @@ main {
 	display: block;
 }
 
+.red-bg {
+    background-color: $primary-colour;
+}
+
 /* ---------- Nav ------------------------------------------------------------------------- */
 
 .nav-logo {
@@ -319,6 +323,11 @@ main {
 .grid dd {
 	margin-left: 0px;
 	text-align: center;
+}
+
+.grid-middle {
+  -webkit-align-items: center;
+  -ms-align-items: center;
 }
 
 .gutter {
