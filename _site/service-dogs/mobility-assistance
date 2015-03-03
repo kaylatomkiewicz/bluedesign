@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
 	<meta charset="utf-8">
-	<title>Service Dogs · 4 Paws for Ability</title>
+	<title>Mobility Assistance Dog · 4 Paws for Ability</title>
 	<link href="/css/style.css" rel="stylesheet">
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -36,55 +36,7 @@
         
 	</header>
 
-        <main>
-
-    <div class="grid">
-    
-        <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-            
-                <a href="service-dogs/seizure-assistance"><img class="image-flex" src="/images/resized/lassie-black-500-300.jpg"></a>
-                <p class="small-bannerquote push-0">Seizure Assistance Dog</p>
-            
-        </div>
         
-
-            <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-               <img class="image-flex" src="/images/resized/hero-dog-500-300.jpg"> 
-                <p class="small-bannerquote push-0">Hearing Ear Dog</p>
-        </div>
-
-            <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-                 <img class="image-flex" src="/images/resized/purple-black-500-300.jpg">
-                <p class="small-bannerquote push-0">Mobility Assistance Dog</p>
-        </div>
-    
-        <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-            <img class="image-flex" src="/images/resized/boy-with-dog-black-500-300.jpg"> 
-            <p class="small-bannerquote push-0">Autism Assistance Dog and FASD/DE Assistance Dog</p>
-        </div>
-
-            <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-               <img class="image-flex" src="/images/resized/dog-leash-500-300.jpg">
-                <p class="small-bannerquote push-0">Facilitated Guide Dog</p>
-        </div>
-
-            <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-                <img class="image-flex" src="/images/resized/resize-black-500-300.jpg">
-                <p class="small-bannerquote push-0">Food Allergen Detection and Alert Dog</p>
-        </div>
-    
-        <div class="banner unit unit-s-1 unit-m-1-2 unit-l-1-3" >
-            <img class="image-flex" src="/images/resized/patti-zurich-lo-500-300.jpg">
-            <p class="small-bannerquote push-0">Diabetic Alert Dog</p>
-        </div>
-        
-        <div class="grid-middle unit unit-s-1 unit-m-1-2 unit-l-2-3 red-bg" >
-            <p class="white-text push-0">We at 4 Paws for Ability believe service dogs should be made available to any child with a disability who wishes to have the love, companionship, and independence that are the result of service dog placement. </p>
-        </div>
-
-    </div>
-    
-    </main>
 		 
     <footer class="bottom">
         
