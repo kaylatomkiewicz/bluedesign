@@ -364,11 +364,10 @@ main {
 
 /* line 32, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .red-bg {
-  background-color: #be1e2d;
-  height: 30vh; }
+  background-color: #be1e2d; }
 
 /* ---------- Nav ------------------------------------------------------------------------- */
-/* line 39, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 38, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav-logo {
   display: none;
   position: fixed;
@@ -376,7 +375,7 @@ main {
   left: 0.5rem;
   height: 4.75rem; }
 
-/* line 49, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 48, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav-btn, .nav-btn:link, .nav-btn:visited {
   z-index: 80;
   position: fixed;
@@ -388,50 +387,50 @@ main {
   background: #be1e2d url('../images/nav-icon.svg') no-repeat center center;
   border-radius: 0.5rem; }
 
-/* line 61, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 60, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav-btn:hover {
   height: 2.75rem;
   width: 2.75rem; }
 
-/* line 66, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 65, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav-btn[data-state="active"] {
   background: #FFF url('../images/nav-close.svg') no-repeat center center;
   border: 3px solid #be1e2d; }
 
-/* line 71, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 70, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav {
   background: url(../images/bg-texture-small.png);
   width: 8rem;
   position: fixed;
   margin-top: 17px; }
 
-/* line 78, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 77, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav a, .nav a:visited {
   text-decoration: none;
   color: #000;
   padding-top: 3rem; }
-  /* line 82, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 81, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .nav a:hover, .nav a:visited:hover {
     color: #be1e2d;
     border-bottom: 4px solid #be1e2d; }
 
-/* line 88, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 87, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav li {
   padding: 1rem 0.75rem;
   border-top: 2px solid #FFF; }
 
-/* line 93, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 92, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav-top {
   top: 20px;
   max-height: 0;
   transition: all 250ms linear;
   overflow: hidden; }
 
-/* line 104, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 103, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .nav-top[data-state="expanded"] {
   max-height: 34rem; }
 
-/* line 108, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 107, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .trap {
   z-index: 20;
   position: fixed;
@@ -440,10 +439,10 @@ main {
   top: 0;
   background: #be1e2d; }
 
-/* line 117, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 116, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .masthead {
   background: url(../images/bg-texture-small.png); }
-  /* line 119, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 118, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .masthead h2 {
     display: inline;
     z-index: 40;
@@ -453,12 +452,12 @@ main {
     margin-left: 30%;
     margin-top: 8px; }
 
-/* line 130, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 129, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .donate-btn {
   display: none; }
 
 @media only screen and (min-width: 23.813em) {
-  /* line 136, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 135, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .donate-btn {
     display: inline-block;
     z-index: 100;
@@ -474,13 +473,13 @@ main {
  }
 
 @media only screen and (min-width: 29em) {
-  /* line 152, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 151, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .masthead h2 {
     margin-left: 37%; }
  }
 
 @media only screen and (min-width: 48em) {
-  /* line 159, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 158, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .masthead {
     text-align: right;
     position: fixed;
@@ -490,29 +489,29 @@ main {
     box-shadow: 0px 2px 4px 0 rgba(0, 0, 0, 0.4);
     padding: 1.25rem 0;
     border-bottom: 8px solid #be1e2d; }
-    /* line 168, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+    /* line 167, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
     .masthead h2 {
       display: none; }
 
-  /* line 178, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 177, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .nav-btn, .nav-btn:link, .nav-btn:visited, .donate-btn, .donate-btn:link, .donate-btn:visited {
     display: none; }
 
-  /* line 182, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 181, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .nav-top {
     top: auto; }
 
-  /* line 186, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 185, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .nav-logo {
     display: inline; }
 
-  /* line 190, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 189, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .nav {
     z-index: 110;
     background: none;
     display: inline;
     position: relative; }
-    /* line 195, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+    /* line 194, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
     .nav li {
       display: inline;
       margin-right: 1rem;
@@ -521,26 +520,26 @@ main {
       font-weight: bold;
       padding: 0 0.5rem;
       border-top: none; }
-      /* line 203, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+      /* line 202, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
       .nav li a {
         text-decoration: none;
         border-top: none; }
-        /* line 206, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+        /* line 205, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
         .nav li a:hover {
           color: #be1e2d;
           border-bottom: 4px solid #be1e2d; }
 
-  /* line 214, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 213, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .donate, .donate a, .donate a:visited {
     color: #FFF;
     font-size: 1.55rem;
     margin-left: 1rem; }
-    /* line 218, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+    /* line 217, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
     .donate:hover, .donate a:hover, .donate a:visited:hover {
       color: #FFF;
       border-bottom-color: #FFF; }
 
-  /* line 224, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 223, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .trap {
     z-index: 20;
     position: fixed;
@@ -555,19 +554,19 @@ main {
  }
 
 /* ---------- Footer -------------------------------------------------------------------------- */
-/* line 242, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 241, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .bottom {
   border-top: 8px solid #be1e2d;
   background: url(../images/bg-texture-small.png);
   text-align: center; }
-  /* line 246, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 245, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .bottom .social span, .bottom .footer-info {
     display: none; }
-  /* line 250, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 249, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .bottom .social li {
     display: inline-block;
     padding: 0.25rem; }
-  /* line 255, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 254, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .bottom .social li a:link, .bottom .social li a:visited {
     display: inline-block;
     font-size: 1.5rem;
@@ -579,7 +578,7 @@ main {
     height: 2.3rem;
     width: 2.3rem; }
   @media only screen and (min-width: 45em) {
-    /* line 269, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+    /* line 268, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
     .bottom .social li a:link, .bottom .social li a:visited {
       font-size: 4rem;
       padding: 0.7rem;
@@ -588,12 +587,12 @@ main {
       font-size: 4rem;
       margin: 2rem 2rem; }
 
-    /* line 279, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+    /* line 278, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
     .bottom .footer-info {
       display: inherit;
       margin-top: 1rem;
       font-size: 0.8rem; }
-      /* line 283, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+      /* line 282, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
       .bottom .footer-info li {
         text-align: left;
         display: inline-block;
@@ -602,108 +601,108 @@ main {
         border-right: 3px solid #be1e2d;
         height: 8rem;
         margin-bottom: 4rem; }
-        /* line 291, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+        /* line 290, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
         .bottom .footer-info li h5 {
           margin: 0.7rem 0;
           color: #be1e2d; }
-        /* line 295, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+        /* line 294, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
         .bottom .footer-info li:last-child {
           border-right: none; }
-        /* line 298, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+        /* line 297, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
         .bottom .footer-info li p {
           margin: 0.25rem auto; }
  }
   @media only screen and (min-width: 51.875em) {
-    /* line 307, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+    /* line 306, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
     .bottom .footer-info {
       font-size: 1rem; }
  }
 
 /* ---------- Grids ------------------------------------------------------------------------- */
-/* line 315, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 314, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .hide {
   display: none; }
 
-/* line 319, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 318, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .grid {
   overflow: hidden;
   clear: both; }
 
-/* line 324, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 323, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .grid dd {
   margin-left: 0px;
   text-align: center; }
 
-/* line 329, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 328, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .grid-middle {
   -webkit-align-items: center;
   -ms-align-items: center; }
 
-/* line 334, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 333, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .gutter {
   padding-left: 1em;
   padding-right: 1em;
   margin: 1em; }
 
-/* line 340, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 339, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .unit {
   float: left;
   width: 33.3333%; }
 
-/* line 345, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 344, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .unit-s-hidden {
   display: none;
   visibility: hidden; }
 
-/* line 350, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 349, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .unit-s-1 {
   width: 100%; }
 
-/* line 354, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 353, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .unit-s-1-2 {
   width: 50%; }
 
-/* line 358, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+/* line 357, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
 .unit-s-1-3 {
   width: 33.3333%; }
 
 @media only screen and (min-width: 38em) {
-  /* line 364, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 363, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-m-hidden {
     display: none;
     visibility: hidden; }
 
-  /* line 369, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 368, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-m-1 {
     width: 100%; }
 
-  /* line 373, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 372, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-m-1-2 {
     width: 50%; }
 
-  /* line 377, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 376, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-m-1-3 {
     width: 33.3333%; }
  }
 
 @media only screen and (min-width: 50em) {
-  /* line 384, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 383, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-l-1 {
     width: 100%; }
 
-  /* line 388, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 387, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-l-1-4 {
     width: 25%; }
 
-  /* line 392, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 391, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-l-1-3 {
     width: 33.3333%; }
 
-  /* line 396, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 395, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-l-1-2 {
     width: 50%; }
 
-  /* line 400, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
+  /* line 399, /Users/Stacey/School/Graphic Design/Graphic Design Year 3/Semester 2/Web Dev:Interactive/bluedesign/scss/components/main */
   .unit-l-2-3 {
     width: 66.6666%; }
  }
