@@ -29,9 +29,22 @@ main {
 	display: block;
 }
 
+
+/* ---------- Service Dogs ---------------------------------------------------------------- */
+
 .red-bg {
     background-color: $primary-colour;
 }
+
+.red-text {
+    color: $primary-colour;
+}
+
+.dog-text {
+    padding: .5rem 3%;
+}
+    
+
 
 /* ---------- Nav ------------------------------------------------------------------------- */
 
