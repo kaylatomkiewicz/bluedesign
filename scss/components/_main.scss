@@ -29,6 +29,23 @@ main {
 	display: block;
 }
 
+
+/* ---------- Service Dogs ---------------------------------------------------------------- */
+
+.red-bg {
+    background-color: $primary-colour;
+}
+
+.red-text {
+    color: $primary-colour;
+}
+
+.dog-text {
+    padding: .5rem 3%;
+}
+    
+
+
 /* ---------- Nav ------------------------------------------------------------------------- */
 
 .nav-logo {
@@ -307,6 +324,10 @@ main {
 
 /* ---------- Grids ------------------------------------------------------------------------- */
 
+.hide {
+    display:none;
+}
+
 .grid {
     overflow: hidden;
 	clear: both;
@@ -315,6 +336,11 @@ main {
 .grid dd {
 	margin-left: 0px;
 	text-align: center;
+}
+
+.grid-middle {
+  -webkit-align-items: center;
+  -ms-align-items: center;
 }
 
 .gutter {
@@ -326,6 +352,11 @@ main {
 .unit {
     float: left;
     width: 33.3333%;
+}
+
+.unit-s-hidden {
+  display: none;
+  visibility: hidden;
 }
 
 .unit-s-1 {
@@ -341,6 +372,11 @@ main {
 }
 
 @media only screen and (min-width: 38em) {
+    
+    .unit-m-hidden {
+        display: none;
+        visibility: hidden;
+    }
 	
 	.unit-m-1 {
 		width: 100%

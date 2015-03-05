@@ -16,7 +16,14 @@ p {
 	margin-right: auto;
     text-align: justify;
     max-width: 60rem;
-    line-height: 1.25rem;
+    line-height: 1.5rem;
+}
+
+.white-text {
+    color: white;
+    padding: 5% 1rem;
+    font-size: 1rem;
+    text-align: center;
 }
 
 blockquote {
@@ -33,6 +40,10 @@ blockquote {
     z-index: -10;
 }
 
+.banner-small {
+    position: relative;
+}
+
 .bannerquote {
     font-size: 1rem;
     color: $primary-colour;
@@ -40,6 +51,18 @@ blockquote {
     font-weight: 400;
     position: absolute;
     display: none;
+}
+
+ .small-bannerquote {
+    font-size: 1.5rem;
+    line-height:1.5rem;
+    background-color: rgba(190, 30, 45, .5);
+    color: white;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    padding: .5rem 0;
 }
 
 @media only screen and (min-width: 21em) {
@@ -66,6 +89,8 @@ blockquote {
         font-size: 2rem;
         padding: 1rem 0;
     }
+    
+    
 }
 
 @media only screen and (min-width: 65em) {
@@ -74,6 +99,11 @@ blockquote {
         padding: 1rem 0;
         font-weight: 400;
     }
+    .white-text {
+        font-size:1.5rem;
+        padding: 2rem 15%;
+    }
+
 }
 
 blockquote footer {
