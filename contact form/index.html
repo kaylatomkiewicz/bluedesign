@@ -7,9 +7,30 @@
 </head>
 
 <body>
+
 <form action="thanks.html" method="post">
-<label for="name">Name</label>
-<input id="name">
+<div>
+	<label for="name">Name</label>
+	<input id="name">
+</div>
+
+<div>
+	<label for="email">Your E-mail</label>
+	<input type="email" id="email" placeholder="your@email.com">
+</div>
+
+<div>
+	<label for="subject">Subject</label>
+	<select id="subject">
+	<option>Just saying hi!</option>
+	<option>Want to talk about dogs.</option>
+	<option>How do I donate?</option>
+</div>
+
+<div>
+	<label for="mesage">Message</label>
+	<textarea id="message"></textarea>
+</div>
 
 <button type="submit">Send</button>
 </form>
