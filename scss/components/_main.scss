@@ -21,8 +21,9 @@ html {
 }
 
 main {
-	padding-top: 4rem;
+	padding-top: 2.5rem;
 }
+
 
 .image-flex {
 	width: 100%;
@@ -167,6 +168,10 @@ main {
 }
 
 @media only screen and (min-width: 48em) {
+    
+    main {
+	   padding-top: 4rem;
+    }
 
     .masthead {
         text-align: right;
