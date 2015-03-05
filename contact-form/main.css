@@ -1,0 +1,48 @@
+label{
+	display: block;
+}
+
+form div {
+	margin-bottom: 1.5rem;
+}
+
+input {
+	font-size: 1.125rem;
+}
+
+input,
+select,
+textarea {
+	font-size: 1.125rem;
+	width: 15em;
+	}
+	
+textarea {
+	height: 10em;
+	}
+
+input,
+textarea{
+	border: 1px solid #ccc;
+	padding: 0.3em;
+	background-color: #e2e2e2;
+	border-radius: 8px;
+	}
+
+input:focus,
+textarea:focus{
+	background-color: #fff;
+}
+	
+	
+	
+	
+button {
+	font-size: 1.125rem;
+	padding: 0.5em 0.75em;
+	background-color: #FE0004;
+	border: 3px solid #928E8E;
+	color: #fff;
+	border-radius: 8px;
+	cursor: pointer;
+	}
