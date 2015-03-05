@@ -1,0 +1,23 @@
+# humanstxt.org
+
+# TEAM
+
+Team Lead: Kayla Tomkiewicz
+Designers & Developers: Stacey Cowan, Sasha Chama, Julia Paddick
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Thank you to our amazing web professors Tiffany Tse and Thomas J. Bradley for the boundless knowledge and inspiration that you have passed on to us.
+
+---
+
+# Sites
+
+Last update: 2015/03/08
+Standards: HTML5, CSS3, SCSS
+Software: Adobe CC, Brackets, Jekyll, Sass, Prepros, WhatFont, Color ORacle, Icon Slate, ImageOptim, Total Validator
+
+
