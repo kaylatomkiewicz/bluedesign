@@ -238,31 +238,42 @@ main {
     border-top: 8px solid $primary-colour; 
     background: url(../images/bg-texture-small.png);
     text-align: center;
-    .social p, .footer-info {
+    .social span, .footer-info {
     display: none;
     }
         
-    .social, .social li, .social li a, .social li a:visited, .social img  {
+    .social li {
     display: inline-block;
-    height: 4rem;
+    padding: .25rem;
+    }
+    .social li a:link, 
+    .social li a:visited  {
+    display: inline-block;
+    font-size: 1.5rem;
+    color: #FFF;
+    background-color: $primary-colour;
+	border-radius: 50%;
+    margin: .5rem;
+    padding: .4rem;
+    height: 2.3rem;
+    width: 2.3rem;
     }
     
     @media only screen and (min-width: 45em) {
-     
-        .social, .social li, .social li a, .social li a:visited, .social p, .social img {
-        color: #000;
-        text-decoration: none;
-        display: inline-block;
-        text-align: center;
-        margin: 0;
-        padding: 0;
-        text-transform: uppercase;
-        height: 100%;
+        .social li a:link, 
+        .social li a:visited  {
+        font-size: 4rem;
+        padding: .7rem;
+        height: 5.25rem;
+        width: 5.25rem;
+        font-size: 4rem;
+        margin: 2rem 2rem; 
     }
 
-    .footer-info{
+
+    .footer-info {
         display: inherit;
-        margin-top: 3rem;
+        margin-top: 1rem;
         font-size: .8rem;
         li {
         text-align: left;
