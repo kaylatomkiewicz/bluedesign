@@ -6,8 +6,15 @@ ul {
     
 }
 
-ul {
-    list-style-image: url('../images/logo.png');
+.statement {
+    ul {
+    list-style-image: url('../images/bullet.png');
+    line-height: 1.5rem;
+    margin-left: 3rem;
+    li {
+    margin-bottom: 1rem;
+    }
+    }
 }
 
 p {
@@ -89,7 +96,6 @@ blockquote {
         font-size: 2rem;
         padding: 1rem 0;
     }
-    
     
 }
 
@@ -286,6 +292,14 @@ sub {
 }
 
 .gutter-large {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
+@media only screen and (min-width: 34em) {
+
+    .gutter-large {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
 }
