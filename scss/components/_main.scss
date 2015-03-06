@@ -30,6 +30,9 @@ main {
 	display: block;
 }
 
+.red-btn {
+	@include button ($primary-colour, #fff, grey);
+}
 
 /* ---------- Service Dogs ---------------------------------------------------------------- */
 
