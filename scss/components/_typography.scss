@@ -9,8 +9,18 @@ hr {
 
 ul {
     max-width: 60rem;
-    margin: auto;
-    
+    margin: auto;  
+}
+
+ol {
+    li {
+        display: inline-block;
+        padding: .5rem;
+    a {
+        color: $primary-colour;
+        text-decoration: none;
+    }
+    }
 }
 
 .text-link, .text-link a, .text-link a:link, .text-link a:visited {
