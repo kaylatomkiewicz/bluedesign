@@ -256,6 +256,52 @@ main {
     }
 }
 
+
+/* ---------- Contact Form -------------------------------------------------------------------------- */
+
+label {
+	display: block;
+}
+
+form div {
+	margin-bottom: 1.5rem;
+}
+
+input {
+	font-size: 1.125rem;
+}
+
+input,
+select,
+textarea {
+	font-size: 1.125rem;
+	width: 15em;
+	}
+	
+textarea {
+	height: 10em;
+    display: block;
+	}
+
+input,
+textarea{
+	border: 1px solid #ccc;
+	padding: 0.3em;
+	background-color: #e2e2e2;
+	border-radius: 8px;
+	}
+
+input:focus,
+textarea:focus{
+	background-color: #fff;
+}
+	
+.send-btn {
+    @include button ($primary-colour, #fff, grey);
+	padding: 0.5em 0.75em;
+	margin-left: 0;
+	}
+
 /* ---------- Footer -------------------------------------------------------------------------- */
 
 .bottom {
