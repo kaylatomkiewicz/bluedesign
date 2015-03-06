@@ -1,5 +1,12 @@
 /* ---------- Type Scaled Using Perfect Fourths — 1.33 ---------- */
 
+hr {
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    color: $primary-colour;
+}
+
 ul {
     max-width: 60rem;
     margin: auto;
