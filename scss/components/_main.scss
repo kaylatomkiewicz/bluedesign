@@ -31,7 +31,7 @@ main {
 }
 
 .red-btn {
-	@include button ($primary-colour, #fff, grey);
+	@include button (grey, #fff, $primary-colour);
 }
 
 /* ---------- Service Dogs ---------------------------------------------------------------- */
