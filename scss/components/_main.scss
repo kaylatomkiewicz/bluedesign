@@ -190,7 +190,7 @@ main {
     .nav-btn:visited,
     .donate-btn,
     .donate-btn:link,
-    .donate-btn:visited{
+    .donate-btn:visited {
         display: none;
     }
 
@@ -226,7 +226,7 @@ main {
         }
     }
 
-    .donate, .donate a, .donate a:visited {
+    .donate, .donate a, .donate a:link, .donate a:visited {
         color: #FFF;
         font-size: 1.55rem;
         margin-left: 1rem;
