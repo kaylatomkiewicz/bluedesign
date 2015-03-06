@@ -18,6 +18,6 @@ Thank you to our amazing web professors Tiffany Tse and Thomas J. Bradley for th
 
 Last update: 2015/03/08
 Standards: HTML5, CSS3, SCSS
-Software: Adobe CC, Brackets, Jekyll, Sass, Prepros, WhatFont, Color ORacle, Icon Slate, ImageOptim, Total Validator
+Software: Adobe CC, Brackets, Jekyll, Sass, Prepros, WhatFont, Color ORacle, Icon Slate, ImageOptim, LiveReload, Total Validator
 
 
