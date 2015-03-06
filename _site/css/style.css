@@ -56,7 +56,7 @@ ul {
 .statement ul {
   list-style-image: url('../images/bullet.png');
   line-height: 1.5rem;
-  margin-left: 3rem; }
+  padding-left: 3rem; }
   /* line 14, /Users/Julia/Documents/Graphic Design/Year 3/Semester II/Web/non-profit/bluedesign/scss/components/typography */
   .statement ul li {
     margin-bottom: 1rem; }
