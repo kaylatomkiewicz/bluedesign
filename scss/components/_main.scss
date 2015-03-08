@@ -24,6 +24,14 @@ main {
 	padding-top: 2.5rem;
 }
 
+.current {
+    border-bottom: 4px solid $primary-colour;
+}
+
+.current-donate {
+     border-bottom: 4px solid white;
+}
+    
 
 .image-flex {
 	width: 100%;

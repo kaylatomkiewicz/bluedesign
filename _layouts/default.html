@@ -22,12 +22,12 @@
             <h2 class="kilo">4 Paws for Ability</h2>
             <a href="{{site.baseurl}}/" class="nav-btn hide-text" data-state="inactive"></a>
 			<ul class="nav nav-top" data-state="collapsed">
-				<li><a href="{{site.baseurl}}/">Home</a></li>
-				<li><a href="{{site.baseurl}}/service-dogs">Service Dogs</a></li>
-				<li><a href="{{site.baseurl}}/help-us">Help Us</a></li>
-                <li><a href="{{site.baseurl}}/blog">Blog</a></li>
-				<li><a href="{{site.baseurl}}/contact">Contact</a></li>
-				<li class="donate"><a href="{{site.baseurl}}/donate">Donate</a></li>
+				<li><a class="{% if page.url == '/' %}current{% endif %}" href="{{site.baseurl}}/">Home</a></li>
+				<li><a class="{% if page.url == '/service-dogs/' %}current{% endif %}" href="{{site.baseurl}}/service-dogs">Service Dogs</a></li>
+				<li><a class="{% if page.url == '/help-us/' %}current{% endif %}" href="{{site.baseurl}}/help-us">Help Us</a></li>
+                <li><a class="{% if page.url == '/blog/' %}current{% endif %}" href="{{site.baseurl}}/blog">Blog</a></li>
+				<li><a class="{% if page.url == '/contact/' %}current{% endif %}" href="{{site.baseurl}}/contact">Contact</a></li>
+				<li class="donate"><a class="{% if page.url == '/donate/' %}current-donate{% endif %}" href="{{site.baseurl}}/donate">Donate</a></li>
 			</ul>
             <a href="{{site.baseurl}}/donate" class="donate-btn kilo bold">Donate</a>
 		</nav>
