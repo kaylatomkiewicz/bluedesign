@@ -268,6 +268,20 @@ main {
     }
 }
 
+@media only screen and (min-width: 63em) {
+
+    .masthead h2 {
+        display: inline;
+        color: #000;
+        text-align: left;
+        margin-left: 0;
+        left: 5.75rem;
+        top: .75rem;
+        text-transform: uppercase;
+        font-size: 1.25rem;  
+    } 
+}
+
 /* ---------- Contact Form -------------------------------------------------------------------------- */
 
 label {

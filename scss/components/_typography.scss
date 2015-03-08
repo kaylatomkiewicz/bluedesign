@@ -22,7 +22,13 @@ ol {
     }
     }
 }
+
+.simple-link, .simple-link a, .simple-link a:link, .simple-link a:active, .simple-link a:visited {
+    text-decoration: inherit;
+    color: inherit;
+}
     
+
 .text-link, .text-link a, .text-link a:link, .text-link a:visited {
     text-decoration: none;
     color: $primary-colour;
