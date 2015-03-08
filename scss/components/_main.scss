@@ -300,12 +300,13 @@ input,
 select,
 textarea {
 	font-size: 1.125rem;
-	width: 15em;
+	width: 15rem;
 	}
 	
 textarea {
-	height: 10em;
+	height: 14rem;
     display: block;
+    width: 100%;
 	}
 
 input,
@@ -323,7 +324,7 @@ textarea:focus{
 	
 .send-btn {
     @include button ($primary-colour, #fff, grey);
-	padding: 0.5em 0.75em;
+	padding: 0.5rem 0.75rem;
 	margin-left: 0;
 	}
 
