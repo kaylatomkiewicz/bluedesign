@@ -23,6 +23,12 @@ ol {
     }
 }
 
+.simple-link, .simple-link a, .simple-link a:link, .simple-link a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+    
+
 .text-link, .text-link a, .text-link a:link, .text-link a:visited {
     text-decoration: none;
     color: $primary-colour;
