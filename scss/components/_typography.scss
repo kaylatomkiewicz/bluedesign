@@ -27,6 +27,9 @@ ol {
     text-decoration: none;
     color: $primary-colour;
     font-weight: 800;
+    &:hover {
+    color: red;
+    }
 }
 
 .statement {
@@ -117,7 +120,7 @@ blockquote {
     display: none;
 }
 
- .small-bannerquote {
+ .bannerquote-small {
     font-size: 1.5rem;
     line-height:1.5rem;
     background-color: rgba(190, 30, 45, .5);
