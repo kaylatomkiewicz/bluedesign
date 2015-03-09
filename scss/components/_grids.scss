@@ -80,14 +80,34 @@
 	.unit-l-1-2 {
 		width: 50%;
 	}
-	
-	.unit-l-2-3 {
-		width: 66.6666%;
-	}
+    
+    .unit-l-2-3 {
+        width: 66.666%;
+    }
 }
 
 @media only screen and (min-width: 60em) {
     .unit-l-1-4 {
 		width: 25%;
 	}
+    
+    .unit-2-3 {
+		width: 75%;
+	}
+    
+    .unit-1-4 {
+        width: 25%;
+        display: block;
+        visibility: visible;
+        padding: 1.5rem;
+        background: url(../images/bg-texture-small.png);
+        right: 0;
+        position: absolute;
+        height: 50rem;
+        border-radius: 10px;
+        h5 {
+        margin: 3rem 1rem 2rem;
+        text-align: center;
+        }
+        }    
 }
