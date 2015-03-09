@@ -13,6 +13,28 @@ p, ol, ul, table, h4, h5, h6, h7, h8, form {
     max-width: 60rem;
 }
 
+.large-quote {
+    font-size: 1rem;
+}
+
+@media only screen and (min-width: 29em) {
+    .large-quote {
+        font-size: 1.2rem;
+    } 
+}
+
+@media only screen and (min-width: 39em) {
+    .large-quote {
+        font-size: 1.5rem;
+    } 
+}
+
+@media only screen and (min-width: 50em) {
+    .large-quote {
+        font-size: 1.75rem;
+    } 
+}
+
 ol {
     li {
         display: inline-block;
@@ -31,6 +53,7 @@ ol {
     
 
 .text-link, .text-link a, .text-link a:link, .text-link a:visited {
+    @include ease(all, 90ms, ease-in-out);
     text-decoration: none;
     color: $primary-colour;
     font-weight: 800;
@@ -95,7 +118,6 @@ td {
     vertical-align: middle;
 }
 
-
 blockquote {
     padding-left: 1.5rem;
     border-left: 3px solid $primary-colour;
@@ -103,6 +125,15 @@ blockquote {
     height: 100%;
     width: 90%;
     margin: auto;
+}
+
+.help-banner {
+    background: transparent url("../images/black-white/german-shepherd-black.jpg");
+    background-size: cover;
+    height: 10rem;
+    position: relative;
+    z-index: -10;
+    @include ease(all, 350ms, ease-out);
 }
 
 .banner {
@@ -116,11 +147,16 @@ blockquote {
 
 .bannerquote {
     font-size: 1rem;
-    color: $primary-colour;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    padding: .5rem 0;
+    background-color: rgba(190, 30, 45, .5);
     text-align: center;
     font-weight: 400;
     position: absolute;
-    display: none;
+    display: block;
+    @include ease(all, 350ms, ease-out);
 }
 
  .bannerquote-small {
@@ -138,14 +174,7 @@ blockquote {
 @media only screen and (min-width: 21em) {
      .bannerquote {
         font-size: 1.25rem;
-        padding: .5rem 0;
-        background-color: rgba(190, 30, 45, .5);
-        color: white;
-        bottom: 0;
-        display: block;
-        width: 100%;
     }
-    
 }
 
 @media only screen and (min-width: 34em) {
@@ -156,8 +185,11 @@ blockquote {
      
      .white-text {
         padding-top: 5%;
-    }
+    } 
     
+     .help-banner {
+        height: 15rem;
+    } 
 }
 
 @media only screen and (min-width: 44em) {
@@ -169,8 +201,11 @@ blockquote {
     .white-text {
         padding-top: 3%;
         font-size: 1rem;
-    }
+    }  
     
+     .help-banner {
+        height: 20rem;
+    } 
 }
 
 @media only screen and (min-width: 56em) {
@@ -179,6 +214,10 @@ blockquote {
         line-height: 1.75rem;
         padding: auto;
     }
+    
+    .help-banner {
+        height: 25rem;
+    } 
 }
 
 @media only screen and (min-width: 65em) {
@@ -266,22 +305,6 @@ small, .milli {
 .micro {
   font-size: 0.5628rem;
   line-height: 2.6653;
-}
-
-sub,
-sup {
-  font-size: 75%;
-  line-height: 1px;
-  position: relative;
-  vertical-align: baseline;
-}
-
-sup {
-  top: -0.5em;
-}
-
-sub {
-  bottom: -0.25em;
 }
 
 .text-left {
@@ -393,9 +416,31 @@ sub {
 }
 
 @media only screen and (min-width: 34em) {
-
     .gutter-large {
         padding-left: 5rem;
         padding-right: 5rem;
+    }
+}
+
+@media only screen and (max-width: 24em) {
+    .gutter-large {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    
+    h2 {
+        font-size: 1.9rem;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+    }
+    
+    h4 {
+        font-size: 1.25rem;
+    }
+    
+    p, ul li, td, h6 {
+        font-size: .8rem;
     }
 }

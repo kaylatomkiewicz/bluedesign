@@ -31,6 +31,7 @@ main {
 
 .red-btn {
 	@include button (grey, #fff, $primary-colour);
+    @include ease(all, 150ms, ease-in-out);
 }
 
 /* ---------- Service Dogs ---------------------------------------------------------------- */
@@ -45,6 +46,11 @@ main {
 
 .dog-text {
     padding: .5rem 3%;
+}
+
+.hover-img:hover {
+    opacity: .75;
+    @include ease(all, 450ms, ease-in-out);
 }
 
 /* ---------- Nav ------------------------------------------------------------------------- */
@@ -90,6 +96,7 @@ main {
 }
 .nav a, 
 .nav a:visited {
+    @include ease(all, 80ms, ease-in-out);
 	text-decoration: none;
     color: #000;
     &:hover {
@@ -143,6 +150,7 @@ main {
 
 .donate-btn {
     display: none;
+    @include ease(all, 150ms, ease-in-out);
 }
 
 .current {
@@ -154,7 +162,6 @@ main {
 } 
 
 @media only screen and (min-width: 23.813em) {
-   
     .donate-btn {
     display: inline-block;
     z-index: 100;
@@ -177,7 +184,6 @@ main {
 }
 
 @media only screen and (min-width: 48em) {
-    
     main {
 	   padding-top: 4rem;
     }
@@ -268,7 +274,6 @@ main {
 }
 
 @media only screen and (min-width: 63em) {
-
     .masthead h2 {
         display: inline;
         color: #000;
@@ -325,14 +330,14 @@ textarea:focus{
     @include button ($primary-colour, #fff, grey);
 	padding: 0.5rem 0.75rem;
 	margin-left: 0;
+    @include ease(all, 100ms, ease-in-out);
 	}
 
 .contact-box {
-    height: 13rem;
+    min-height: 15rem;
     width: 13rem;
     text-align: center;
     border: 1rem white solid;
-    overflow: hidden;
     margin: auto;
     h5 {
         margin-bottom: 0;
@@ -363,6 +368,7 @@ textarea:focus{
     }
     .social li a:link, 
     .social li a:visited  {
+    @include ease(all, 250ms, ease-in-out);
     display: inline-block;
     font-size: 1.5rem;
     color: #FFF;
