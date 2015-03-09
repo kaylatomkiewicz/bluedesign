@@ -58,9 +58,9 @@ p {
 
 .white-text {
     color: white;
-    padding: 5% 1rem;
-    font-size: 1rem;
-    text-align: center;
+    padding: .5rem 9%;
+    font-size: .9rem;
+    text-align: justify;
 }
 
 .red-title {
@@ -145,6 +145,7 @@ blockquote {
         display: block;
         width: 100%;
     }
+    
 }
 
 @media only screen and (min-width: 34em) {
@@ -152,6 +153,11 @@ blockquote {
         font-size: 1.5rem;
         padding: 1rem 0;
     }
+     
+     .white-text {
+        padding-top: 5%;
+    }
+    
 }
 
 @media only screen and (min-width: 44em) {
@@ -160,6 +166,19 @@ blockquote {
         padding: 1rem 0;
     }
     
+    .white-text {
+        padding-top: 3%;
+        font-size: 1rem;
+    }
+    
+}
+
+@media only screen and (min-width: 56em) {
+    .white-text {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+        padding: auto;
+    }
 }
 
 @media only screen and (min-width: 65em) {
@@ -168,11 +187,19 @@ blockquote {
         padding: 1rem 0;
         font-weight: 400;
     }
+    
     .white-text {
-        font-size:1.5rem;
-        padding: 2rem 15%;
+        font-size: 1.5rem;
+        padding: 3% 8%;
+        line-height: 2rem;
     }
+}
 
+@media only screen and (min-width: 76em) {
+    .white-text {
+        font-size: 1.7rem;
+        line-height: 2.25rem;
+    }
 }
 
 blockquote footer {
