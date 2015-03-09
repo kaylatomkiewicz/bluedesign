@@ -34,6 +34,11 @@ main {
     @include ease(all, 150ms, ease-in-out);
 }
 
+.contact-btn {
+	@include button ($primary-colour, #fff, grey);
+    @include ease(all, 150ms, ease-in-out);
+}
+
 /* ---------- Nav ------------------------------------------------------------------------- */
 
 .nav-logo {
