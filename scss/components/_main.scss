@@ -34,23 +34,12 @@ main {
     @include ease(all, 150ms, ease-in-out);
 }
 
-/* ---------- Service Dogs ---------------------------------------------------------------- */
-
-.red-bg {
-    background-color: $primary-colour;
-}
-
-.red-text {
-    color: $primary-colour;
-}
-
-.dog-text {
-    padding: .5rem 3%;
-}
-
-.hover-img:hover {
-    opacity: .75;
-    @include ease(all, 450ms, ease-in-out);
+@media only screen and (min-width: 45em) {
+    .user-btn {
+    margin: 0;
+    right: 1rem;
+    padding: .75rem;
+    }
 }
 
 /* ---------- Nav ------------------------------------------------------------------------- */
@@ -286,6 +275,25 @@ main {
     } 
 }
 
+/* ---------- Service Dogs ---------------------------------------------------------------- */
+
+.red-bg {
+    background-color: $primary-colour;
+}
+
+.red-text {
+    color: $primary-colour;
+}
+
+.dog-text {
+    padding: .5rem 3%;
+}
+
+.hover-img:hover {
+    opacity: .75;
+    @include ease(all, 450ms, ease-in-out);
+}
+
 /* ---------- Contact Form -------------------------------------------------------------------------- */
 
 label {
@@ -349,6 +357,31 @@ textarea:focus{
     i {
         font-size: 3rem;
         color: $primary-colour;
+    }
+}
+
+/* ---------- User Log In -------------------------------------------------------------------------- */
+
+.user-btn {
+	@include button ($primary-colour, #fff, grey);
+    @include ease(all, 150ms, ease-in-out); 
+    font-size: .8rem;
+    padding: .5rem;
+    position: relative;
+    bottom: 1rem;
+    margin-bottom: 0;
+    width: 6.5rem;
+}
+
+.credentials {
+    text-align: center;
+    ul li {
+    display: inline-block;
+    text-align: left;
+    padding: 1rem;
+    }
+    .send-btn {
+        margin-left: 14rem;
     }
 }
 
